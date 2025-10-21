@@ -72,13 +72,6 @@ export function simulate(particles, duration, dt) {
     for (let step = 0; step < steps; step++) {
         updateForces(particles);
         updateParticles(particles, dt);
-
-        // Log positions for debugging
-        console.log(`Step ${step}`);
-        particles.forEach((p, index) => {
-            console.log(`Particle ${index}: Position (${p.position.x.toFixed(2)}, ${p.position.y.toFixed(2)})`);
-        });
-        console.log('---');
     }
 }
 
