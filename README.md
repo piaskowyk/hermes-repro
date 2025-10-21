@@ -30,6 +30,22 @@ Apart from the startup, the later code execution performance of Hermes V1 seems 
 
 It seems like in Hermes v1 some data structures takes significantly more memory - on average 30-40% more. Especially `Map`, `Set`, `Object`, `Function` and strings.
 
+To test it I've used the following code to generate large arrays of different data structures:
+
+```typescript
+function generateLargeArray() {
+  const largeArray = [];
+  for (let i = 0; i < 5_000_000; i++) {
+    largeArray.push(new Map());
+    largeArray.push(new Set());
+    largeArray.push(() => {});
+    largeArray.push({});
+    largeArray.push(`${i} this is very very very long string`);
+  }
+  return largeArray;
+}
+```
+
 ### Map()
 - Hermes v0: 720MB
 ```
