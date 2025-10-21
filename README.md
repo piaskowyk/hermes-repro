@@ -21,7 +21,8 @@ The problem appears when I include a file `longFile.ts` that contains a large am
 
 According to the profiler, most of the time (around 10 seconds) is spent in the `hermes::DominanceInfo::properlyDominates(hermes::Instruction const*, hermes::Instruction const*)` method.
 
-// profiler screenshot
+<img width="2105" height="896" alt="profiler" src="https://github.com/user-attachments/assets/944b8dab-1b24-4408-9bc4-f14109f42cdf" />
+
 
 Apart from the startup, the later code execution performance of Hermes V1 seems to be better—the nBody benchmark is around 30% faster.
 
