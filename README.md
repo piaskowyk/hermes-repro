@@ -31,7 +31,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 
 ### Map()
 - Hermes v0: 720MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 181,
@@ -48,7 +48,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 ```
 
 - Hermes v1: 1210MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 282,
@@ -66,7 +66,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 
 ### Set()
 - Hermes v0: 720MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 181,
@@ -82,7 +82,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 }
 ```
 - Hermes v1: 1210MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 282,
@@ -100,7 +100,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 
 ### Object()
 - Hermes v0: 221MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 63,
@@ -116,7 +116,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 }
 ```
 - Hermes v1: 503MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 106,
@@ -134,7 +134,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 
 ### Function()
 - Hermes v0: 221MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 63,
@@ -150,7 +150,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 }
 ```
 - Hermes v1: 503MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 107,
@@ -168,7 +168,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 
 ### String
 - Hermes v0: 501MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 172,
@@ -184,7 +184,7 @@ It seems like in Hermes v1 some data structures takes significantly more memory 
 }
 ```
 - Hermes v1: 589MB
-```json
+```
 { 
   js_VMExperiments: 0,
   js_numGCs: 207,
